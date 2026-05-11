@@ -103,10 +103,13 @@ let myProduct:{
 
 // Interfaces
 
-interface User{
-    name:string,
-    role?:string, // Optionaler Objekt
-}
+// wurde in interfaces.ts verschoben
+//interface User{
+//    name:string,
+//    role?:string, // Optionaler Objekt
+//}
+
+import {User} from './interfaces'; // User wird aus './interfaces' importiert
 
 function logAdmin(user:User) : User{ // Nach Definition durch interface kann User als typ (user : User) und zur definition des Returnwerts benutzt werden
     return user
