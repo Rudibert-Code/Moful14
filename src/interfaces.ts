@@ -21,13 +21,13 @@ let carl:Employee = {
 
 
 
-let sven:Employee = {
-    name:"Karl",
-    staff:true,
-    role:"user",
-    wheels:2,
-    birthday:"monday"
-}
+//let sven:Employee = {
+//    name:"Karl",
+//    staff:true,
+//    role:"user",
+//    wheels:2,
+//    birthday:"monday"
+//}
 
 let person:Employee = sven; 
 //  Checkt, ob in sven alle Angaben enthalten sind, die für interface "Employee" benötigt werden, wenn mehr enthalten sind, werden diese nicht als Fehler angezeigt. Dies verursacht allerdings Fehler.
